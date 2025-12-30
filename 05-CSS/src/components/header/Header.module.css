@@ -1,0 +1,20 @@
+.header {
+  background-color: slateblue;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px;
+  /* Add these to make it a side-by-side header */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white; /* Makes the Bingo text readable */
+}
+
+.btn {
+  background-color: pink;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  margin: 5px; 
+  width: fit-content;
+}
