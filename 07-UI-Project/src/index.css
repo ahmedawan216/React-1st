@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* 1. The width of the scrollbar (Horizontal height) */
+#right::-webkit-scrollbar {
+  height: 6px; 
+}
+
+/* 2. The Track (The background) */
+#right::-webkit-scrollbar-track {
+  background-color: rgba(116, 116, 116, 0.1); /* Light grey with transparency */
+  border-radius: 10px;
+}
+
+/* 3. The Thumb (The part you actually see moving) */
+#right::-webkit-scrollbar-thumb {
+  background-color: rgb(116, 116, 116); /* Your grey color */
+  border-radius: 10px;
+}
