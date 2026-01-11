@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page1 {
+  width: 100;
+  height: 100vh;
+  background-color: #111;
+}
+
+.page2 {
+  width: 100;
+  height: 100vh;
+  background-color: #222;
+}
+
+.page3 {
+  width: 100;
+  height: 100vh;
+  background-color: #333;
+}
